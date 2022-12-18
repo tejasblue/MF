@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: rgb(102, 146, 131);
+    font-size: 35px;
+}
+canvas{
+    animation-name: Thing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Thing {
+    form{box-shadow: 10px 10px 38px rgb(162, 218, 253);}
+    to{box-shadow: 10px 10px 38px rgb(248, 232, 186);}
+}
+body{
+    background-color: aquamarine;
+}
